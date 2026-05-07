@@ -1,0 +1,24 @@
+Proof that the ant’s path is unbounded:
+
+    1) Since the ant turns a quarter turn at each step, the set of squares visited by the ant forms a grid of ‘horizontal’ squares 
+      visited from the west or east at each step and ‘vertical’ squares visited from the south or north at each step
+        
+    2) We proceed by contradiction and assume that the ant follows a bounded path
+        
+    3) Then, as the algorithm governing the ant’s movement repeats itself an infinite number of times, 
+      there exists a set of squares visited an infinite number of times
+        
+    4) Among these, there exists one such that the squares to the north and east are not visited an infinite number of times; 
+      otherwise, the movement would not be bounded
+        
+    5) However, each time the ant passes over this square, the square changes colour
+        
+    6) We proceed by case analysis:
+        1) The square is a ‘horizontal’ square: The ant then enters it from the west (by point 4) and exits half the time via the south, 
+          and half the time via the north (since the square changes colour by point 5). 
+          Thus, the square to the north is visited an infinite number of times, which is absurd by point 4.
+        2) The square is a ‘vertical’ square: the ant therefore enters it from the south (by point 4) and exits half the time via the west
+          and half the time via the east (because the square changes colour, as per point 5).
+          Thus, the square to the east is visited an infinite number of times, which is absurd, as per point 4.
+            
+    7) Thus, in all cases, we arrive at an absurdity. Therefore, the ant’s path is unbounded
