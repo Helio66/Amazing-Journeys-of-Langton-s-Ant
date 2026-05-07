@@ -12,4 +12,11 @@ Introduced in 1986, Langton's Ant is a cellular automata well-know for the varie
 
 # Introducing Langton's Ant cellular automaton
 This automaton is an ant on a 2-coloured grid which follows the following rules :
-if the cell where the ant is is a white cell, she turn it to black and 
+if the cell where the ant is is a white cell, she turns it to black and rotate to left
+else, the cell is a black cell, she turns it to white and rotate to right.
+Then, she move one cell forward and repete it.
+
+# Some nice results
+ 1) Unbounded trajectory
+      The proof was made that for every initial map, the trajectory of the ant is unbounded. This proof is accessible in the file 
+ 2) Attractors
