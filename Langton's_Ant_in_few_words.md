@@ -16,5 +16,7 @@ Then, she move one cell forward and repete it.
       initial finite configuration. However, it is false in the case of an infinite configuration.
 
 # Studying the problem "Does the Ant ever visit this given cell ?"
+In the study of Langton's Ant trajectory, we must be able to solve this problem. But to know if it's possible, we need to study its complexity, i.e. the time it would take to an algorithm to solve it. 
+To answer it, we prove that using specific initial configurations, the Ant can evaluate every boolean circuit. Knowing that the problem of the evaluation of a boolean circuit is a P-complete problem, we conclude that the studied problem is a P-hard problem. (for further details, see the file "About_Langton's_Ant--Report_of_my_study.pdf" 
 
 
