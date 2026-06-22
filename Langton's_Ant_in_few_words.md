@@ -13,4 +13,8 @@ Then, she move one cell forward and repete it.
       the other ants can use this highway to move faster in one direction, which justifies the name we gave to it. To simplify, an attractor is a stable state
       towards which a system evolves (in the case of Langton's Ant, the attractor is this drawing that constitutes the highway).
       Even if it wasn't formally proved yet, some mathematicians published an analogy with physics, allowing us to verify that this attractor appears, whatever the
-      initial finite configuration. However, it is false in the case of an infinite configuration. 
+      initial finite configuration. However, it is false in the case of an infinite configuration.
+
+# Studying the problem "Does the Ant ever visit this given cell ?"
+
+
